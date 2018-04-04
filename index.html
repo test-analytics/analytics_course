@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample Page</title>
+  </head>
+  <style>
+  .input {
+    display:block;
+    margin: 15px;
+  }
+  .red {
+    background-color: lightgreen;
+    padding: 10px;
+  }
+  .border {
+    border: 1px solid black;
+  }
+  .wrapper {
+    padding: 15px 0px;
+  }
+  </style>
+  <body>
+    <p>
+      this is a sample HTML page. <a href="target.html">A sample link<a>
+    </p>
+    <form class="red border" action="thank_you.html" method="get">
+      <p>
+        this is simple form
+      </p>
+      <label>Name <input class="input" id="input1" name="name" type="text"></label>
+      <label>ID number <input class="input" id="input2" name="id" type="text"></label>
+      <input type="submit" value="Submit">
+    </form>
+    <div class="wrapper">
+      <button id="button" type="button" name="button">Sample Button</button>
+    </div>
+  </body>
+</html>
